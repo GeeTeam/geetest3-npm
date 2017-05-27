@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>geetest3 for npm demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        .field {
+            margin: 20px;
+        }
+        button {
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+        #tip {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<h1>login</h1>
+<form>
+    <div class="field">
+        <label for="username">username:</label>
+        <input id="username" type="text">
+    </div>
+    <div class="field">
+        <label for="password">password:</label>
+        <input id="password" type="password">
+    </div>
+    <div class="field">
+        <label>verify: </label>
+        <div id="captcha"></div>
+        <div id="tip">loading captcha</div>
+    </div>
+    <div class="field">
+        <button id="submit">login</button>
+    </div>
+</form>
+<script src="dist/bundle.js"></script>
+</body>
+</html>

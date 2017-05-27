@@ -1,0 +1,29 @@
+{
+  "name": "geetest3",
+  "version": "1.0.0",
+  "description": "the Geetest 3.0 captcha library on npm and a demo",
+  "main": "dist/geetest-npm.1.0.0.js",
+  "scripts": {
+    "start": "concurrently \"supervisor -- demo/server.js --port=9991\" \"webpack\""
+  },
+  "contributors": [
+    {
+      "name": "geetest",
+      "email": "service@geetest.com",
+      "url": "geetest.com"
+    }
+  ],
+  "repository": "https://github.com/GeeTeam/geetest3-npm",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.16.1",
+    "concurrently": "^3.3.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.2",
+    "gt3-sdk": "^2.0.0",
+    "jquery": "^3.1.1",
+    "minimist": "^1.2.0",
+    "supervisor": "^0.12.0",
+    "webpack": "^2.2.1"
+  }
+}
